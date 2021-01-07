@@ -1,4 +1,4 @@
-print("Hello WOrld from Sandy Quihspe/ n Espe/n GEO")
+print("Hello WOrld from Daniel Yaguana/ n Espe/n GEO")
 
 #input variables
 adddend1 = input("Enter the first number --> ")
