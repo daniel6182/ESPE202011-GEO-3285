@@ -14,6 +14,7 @@ public class BasicOperations {
     /**
      * @param args the command line arguments
      */
+    @SuppressWarnings("UnusedAssignment")
     public static void main(String[] args) {
         // TODO code application logic here
          int sum;
