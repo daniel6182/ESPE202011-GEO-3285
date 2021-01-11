@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication13;
+package javaapplication14;
 
 /**
  *
  * @author Thomas Chavez
  */
-public class JavaApplication13 {
+public class JavaApplication14 {
 
     /**
      * @param args the command line arguments
@@ -80,7 +80,7 @@ public class JavaApplication13 {
         System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
         
         p = false;
-        q = true;
+        q = false;
         System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
         
         
