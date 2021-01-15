@@ -79,7 +79,7 @@ public class WS07Menus {
                     System.out.println("The division is --> " + division);
                     break;
                 case 5:
-                    System.out.println("Good Bye my friend");
+                    System.out.println("See you tomorrow my friend");
                     System.exit(0);
                     break;
                 default:
