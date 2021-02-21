@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package houseanimals;
+package hw14arrays;
 
 import java.util.Scanner;
 
@@ -11,14 +11,14 @@ import java.util.Scanner;
  *
  * @author Thomas Chavez
  */
-public class HouseAnimals {
+public class HW14Arrays {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         int[] kittensByCats;
+     int[] kittensByCats;
         String[] cats = {"Pelusa", "Anastasia", "Perla"};
         float[] weightsBycats = { 1.2F, 2.4F, 45.2F, 80.1F, 4.3F, 4.5F};
         Scanner input = new Scanner(System.in);
@@ -40,10 +40,11 @@ public class HouseAnimals {
         for (int i = 0; i < n; i++) {
             System.out.println("kittens of the houses " + (i + 1) + " -> " + kittensByHouses[i]);
         }
+        Iterable<String> kittens;
 
-        for (String cats : cats) {
+    
             System.out.println("chicken name -> " + cats);
-        }
+        
         
         for (int i = 0; i < weightsByCats.length ; i++) {
              String[] weightsByHouses = null;
