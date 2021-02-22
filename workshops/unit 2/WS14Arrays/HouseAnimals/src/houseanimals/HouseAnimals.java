@@ -18,7 +18,7 @@ public class HouseAnimals {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         int[] kittensByCats;
+         int[] weightByCats;
         String[] cats = {"Pelusa", "Anastasia", "Perla"};
         float[] weightsBycats = { 1.2F, 2.4F, 45.2F, 80.1F, 4.3F, 4.5F};
         Scanner input = new Scanner(System.in);
