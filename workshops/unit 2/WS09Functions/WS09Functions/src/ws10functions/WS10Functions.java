@@ -24,8 +24,8 @@ public class WS10Functions {
 
         //call to divideTwoNumbers() function
         quotient = divideTwoNumbers(divd, divr);
-
-        System.out.println("Quotient of 5 and 10 is -> " + quotient); //0.5 or ?
+   
+        System.out.println("AUTHOR: KEVIN DANIEL YAGUANA YAGUANA and Quotient of 5 and 10 is -> " + quotient); //0.5 or ?
 
         y = f(3);
         System.out.println("3^2 -> " + y);
